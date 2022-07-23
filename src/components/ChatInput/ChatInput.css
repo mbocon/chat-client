@@ -1,0 +1,32 @@
+.chatInputDiv {
+    height: 10%;
+    display: flex;
+    width: 100%;
+}
+
+.chatInputForm {
+    width: 100%;
+    height: 100%;
+}
+
+.chatInput {
+    width: 80%;
+    height: 100%;
+}
+
+.chatInputBtn {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(68, 49, 98, .5);
+    color: whitesmoke;
+}
+
+@media only screen  and (min-width : 1224px) {
+    .chatInputDiv {
+        height: 5%;
+    }
+
+    .chatInputBtn {
+        font-size:  25pt;
+    }
+}

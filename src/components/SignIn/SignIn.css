@@ -1,0 +1,96 @@
+.signInDiv {
+    background-color: rgba(68, 49, 98, 0.582);
+    width: 80%;
+    height: 50%;
+    margin: 50% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4%; */
+    border-radius: 10px;
+    min-height: 500px;
+}
+
+.headingDiv {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 5%; */
+}
+
+.heading {
+    /* margin-top: 0; */
+    /* height: 100%; */
+    font-size: 55pt;
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    color: whitesmoke;
+}
+
+.signInFormDiv {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.signInForm {
+    height: 100%;
+}
+
+.signInInputDiv {
+    /* margin-bottom: 6%; */
+    width: 100%;
+    height: 33.3%;
+    margin-bottom: 3%;
+}
+
+.signInSubmitBtn {
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.signInInput {
+    height: 100%;
+    width: 100%;
+    background-color: #DADADA;
+    border: none;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 35pt;
+}
+
+.newUserBtnDiv {
+    height: 20%;
+    width: 100%;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 4%;
+}
+
+.signInBtn {
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #DADADA;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35pt;
+}
+
+@media only screen  and (min-width : 1224px) {
+    .signInDiv {
+        min-height: 300px;
+        margin: 10% auto;
+        width: 30%;
+    }
+}

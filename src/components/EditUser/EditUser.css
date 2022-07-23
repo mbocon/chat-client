@@ -1,0 +1,88 @@
+.editUserDiv {
+    background-color: rgba(68, 49, 98, 0.582);
+    width: 80%;
+    height: 35%;
+    margin: 50% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4%; */
+    border-radius: 10px;
+    min-height: 300px;
+}
+
+.editUserForm {
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.editHeadingDiv {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editHeading {
+    /* margin-top: 0; */
+    /* height: 100%; */
+    font-size: 40pt;
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    color: whitesmoke;
+}
+
+.editUserInputDiv {
+    height: 33.3%;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.editUserInput {
+    height: 100%;
+    width: 100%;
+    background-color: #DADADA;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 40pt;
+    border: none;
+}
+
+.editUserBtnDiv{
+    height: 33.3%;
+    width: 90%;
+    margin-bottom: 3%;
+}
+
+.editUserBtn {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #DADADA;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40pt;
+    border: none;
+    border-radius: 3rem;
+}
+
+@media only screen  and (min-width : 1224px) {
+    .editUserDiv {
+        margin: 20% auto;
+        height: 40%;
+    }
+
+    .editHeadingDiv {
+        margin-bottom: 2%;
+    }
+
+    .editUserInputDiv {
+        margin-bottom: 2%;
+    }
+}

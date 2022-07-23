@@ -1,0 +1,149 @@
+.sideNavDiv {
+    width: 100%;
+    /* background-color: darkslategray; */
+    /* padding: 1.5% 1%; */
+    height: 5%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+.activeRooms {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(68, 49, 98);
+    padding-left: 1%;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    display: flex;
+    justify-content: center;
+}
+
+.online-div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: whitesmoke;
+    color: rgb(68, 49, 98);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+.online-icon {
+    height: 100%;
+    width: 25%
+}
+
+.current-room {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createRoomBtn {
+    width: 25%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.createRoomInput {
+    z-index: 1;
+    width: 100%;
+    height: 85%;
+    padding-left: 2%;
+}
+
+.lgScreenRoomsDiv {
+    display: none;
+}
+
+@media only screen  and (min-width : 1224px) {
+    .sideNavDiv {
+        width: 20%;
+        flex-direction: column;
+        /* flex-wrap: nowrap; */
+        height: 100%;
+        background-color: rgba(68, 49, 98, .5);
+        color: whitesmoke;
+        padding-top: 3%;
+    }
+
+    .online-div {
+        width: 100%;
+        height: 15%;
+        flex-direction: column;
+        margin-bottom: 2%;
+        background-color: transparent;
+    }
+
+    .online-icon {
+        height: 35%;
+        width: 20%;
+        align-self: center;
+        background-color: whitesmoke;
+        border-radius: 50%;
+        padding: 2%;
+    }
+
+    .current-room {
+        width: 100%;
+    }
+
+    /* .current-room {
+
+    } */
+
+
+
+    .activeRooms {
+        display: none;
+    }
+
+    .lgScreenRoomsDiv {
+        display: block;
+        width: 100%;
+        flex: 1;
+        overflow: auto;
+        color: whitesmoke;
+        padding-left: 2%;
+    }
+
+    .lgScreenRoomsHeading {
+        border-bottom: 2px solid whitesmoke;
+        padding: 1%;
+        margin-bottom: 1.5%;
+    }
+
+    .lgScreenRoomName {
+        height: 10%;
+        font-size: 12pt;
+        border-bottom: .5px solid whitesmoke;
+        padding: 1.5%;
+        margin-bottom: 1.5%;
+    }
+
+    .createRoomBtn {
+        width: 100%;
+        height: 5%;
+        margin-bottom: 2%;
+        background-color: rgba(68, 49, 98, .7);
+        border: none;
+    }
+
+    .createRoomBtn:hover {
+        background-color: whitesmoke;
+        color: rgba(68, 49, 98, .9);
+    }
+
+    .createRoomInput {
+        z-index: 0;
+        height: 5%;
+    }
+}

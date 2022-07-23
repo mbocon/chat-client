@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid orange; */
+    /* font-family: 'Dancing Script', cursive; */
+    color: grey;
+}
+
+.appDiv {
+    height: 100vh;
+    background-image: url('./components/icons/photo-of-multicolored-illustration-2832382.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* overflow: auto; */
+}
